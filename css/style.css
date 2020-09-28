@@ -1,0 +1,110 @@
+@keyframes blinking{
+    0%{color: blue;}
+    100%{color: green;}
+    }
+    body{
+    background-color: black;    
+    }
+    h1{
+    position: absolute;     
+        font-size: 60px;
+        left: 0px;
+        top: 20px;
+        animation: blinking 0.25s infinite;
+        
+    }
+    .LEVEL{
+        width: 250px;
+        height: 100px;
+        left: 0px;
+        position: absolute; 
+        font-size: 55.0px;
+        background-color: black;
+        border-color: black;
+        animation: blinking 0.25s infinite;      
+    }
+    .LEVEL:hover{
+        cursor: pointer;
+        background-color: rgb(71, 5, 71)  
+    }
+    #Beginner{
+        top: 150px;
+    }
+    #Medium{
+        top:250px;
+    }
+    #Expert{
+        top: 350px;
+    }
+    .Frame{
+        width: 550px;
+        height: 550px;
+        margin: 0 auto;
+        border: solid 2px;
+        border-color: black;
+        position: absolute;     
+        left: 300px;
+        top: 20px;
+        
+    }
+    h2{
+        color: white;
+        position: absolute;     
+    }
+    span{
+        color: red;    
+        
+    }
+    .LIVES{
+        left: 350px;
+        position: absolute;   
+    }
+    .lives{
+        color: red;
+        font-size: 32.0px;    
+    }
+    .starter{
+        background-color: black; 
+        border-color: black;   
+        text-align: center;
+        font-size: 20px;
+        width: 45.5px;
+        height: 45.5px;
+        position: absolute;
+        top: 20px;
+        left:270px
+    }
+    .starter:hover{
+        cursor: pointer;
+        background-color:rgb(71, 5, 71)   
+    }
+    table{
+        position:relative;
+           
+    }
+    .cell{
+        width: 35px;
+        height: 35px;
+        
+        margin: 0 auto;
+        border: solid 0.5px;
+        
+        left: 200px;
+        top: 200px;
+        position: relative;
+        font-size: 20.0px;
+        
+        animation: blinking 0.25s infinite;
+        
+    }
+    .clicker{
+        width: 33.5px;
+        height: 33.5px; 
+        background-color:blue
+           
+    }
+    .clicker:hover{
+        cursor: pointer;
+        background-color: rgb(71, 5, 71) 
+          
+    }

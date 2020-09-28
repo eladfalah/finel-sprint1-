@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <menu type="conext" id="menu">
+    </menu>
+    <title>Minesweeper-sprint 1-ELAD FALAF</title>
+</head>
+<body>
+<h1>Minesweeper</h1>
+<button class="LEVEL" id="Beginner" onclick='initGame(1)'>Beginner</button>
+<button class="LEVEL"id="Medium" onclick='initGame(2)'>Medium</button>
+<button class="LEVEL"id="Expert" onclick='initGame(3)'>Expert</button>
+<div class="Frame"> 
+ <button class="starter" onclick='initGame(0)'></button>    
+<h2>TIME: <span><span class="minutes">00</span>:<span class="seconds">00</span></span></h2>
+<h2 class="LIVES">LIVES LEFT: <span class="lives"></span></h2>
+<table>
+<tbody class="board"></tbody>   
+</table>
+</div>
+<script src="js\main.js"></script>
+   
+</body>
+</html>
